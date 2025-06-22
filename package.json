@@ -7,7 +7,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "init-db": "node database/init.js",
-    "export-sql": "node database/export-to-sql.js"
+    "export-sql": "node database/export-to-sql.js",
+    "convert-to-mysql": "node database/convert-to-mysql.js"
   },
   "keywords": [
     "nodejs",
